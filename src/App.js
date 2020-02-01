@@ -159,6 +159,9 @@ export default class App extends React.Component {
                 </div>
               </div>
               <div className="row mt-4">
+                <p>You timesheet headers should be "Employee ID", "Billable Rate", "Project", "Date", "Start Time", and "End Time"</p>
+              </div>
+              <div className="row mt-2">
                 <div className="col-xs-12">
                   <button
                     disabled={!this.state.data.length}
